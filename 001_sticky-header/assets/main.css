@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.header-container {
+    background-color: white;
+    position: relative;
+    /*
+    position: sticky;
+    top: 0;
+    */
+    z-index: 1;
+}
+
+.title-dzen {
+    font-size: 40px;
+}
+
+.main-container {
+    display: flex;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.aside {
+    flex-basis: 10%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+}
+
+.link-aside {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 6px;
+    margin: 20px 20px 0px 20px;
+}
+
+.flex-element {
+    width: 350px;
+    height: 350px;
+    row-gap: 15px;
+    border: 1px solid gray;
+}
