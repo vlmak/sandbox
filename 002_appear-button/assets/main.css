@@ -1,9 +1,12 @@
+.appear-btn {
+    display: none;
+}
+
+
+
 @media (max-width: 900px) {
     .appear-btn {
         display: block;
     }
 }
 
-.appear-btn {
-    display: none;
-}

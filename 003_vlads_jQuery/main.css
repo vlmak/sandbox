@@ -1,0 +1,11 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.block.active {
+    border: aquamarine solid 2px;
+    border-width: 10px;
+    border-color: green;
+}
